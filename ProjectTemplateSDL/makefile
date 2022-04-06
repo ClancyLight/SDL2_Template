@@ -6,7 +6,7 @@ exec=$(appName)$(execExt)
 
 
 build:
-	gcc -std=c99 ./src/*.c -lSDL2 -lSDL2_ttf -o ./bin/$(exec)
+	gcc -std=c99 -std=gnu99 ./src/*.c -lSDL2 -lSDL2_ttf -o ./bin/$(exec)
 
 run:
 	./bin/$(exec)

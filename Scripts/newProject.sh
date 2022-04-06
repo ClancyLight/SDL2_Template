@@ -8,11 +8,12 @@ echo "Creating project: $projname"
 
 cp -R ../ProjectTemplateSDL ../$projname
 
-sed -i "" "s/templateApp/$projname/g" ../$projname/makefile
+ls ../$projname
+sed -i "s/templateApp/$projname/g" ../$projname/makefile
 
 cprojname="TemplateProgram"
 
-sed -i "" "s/$cprojname/$projname/g" ../$projname/src/main.c
+sed -i  "s/$cprojname/$projname/g" ../$projname/src/main.c
 
 
 cd ../$projname
