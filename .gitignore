@@ -45,6 +45,9 @@
 # MacOS stuff
 .DS_Store
 
+# Editor stuff
+.vscode/*
+
 # Kernel Module Compile Results
 *.mod*
 *.cmd
