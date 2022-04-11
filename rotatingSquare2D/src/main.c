@@ -201,6 +201,7 @@ void init_vars(){
 
 
 
+
 Vector_t translateV(Vector_t v, float x, float y){
     v.x += x;
     v.y += y;
@@ -257,7 +258,6 @@ int main(){
         ctrl_processInput();        
         SDL_Delay(5);
     }
-
     view_quit();
     return 0;
 }
